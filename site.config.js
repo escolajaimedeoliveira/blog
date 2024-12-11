@@ -1,32 +1,34 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    name: "EE PEI Jaime de Oliveira",
+    image: "/escolajaimedeoliveira.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "📍 Ponte Alta, Barra do Chapéu - SP",
+    bio: "📍 Ponte Alta, Barra do Chapéu - SP",
+    email: "escolajaime@gmail.com",
+    linkedin: "eduardoslompo",
+    github: "eduardoslompo",
+    instagram: "eduslompo",
+    facebook: "escolajaime",
+    phone: "1535546001"
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `EE PEI Jaime de Oliveira`,
+      href: "#",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    title: "EE PEI Jaime de Oliveira",
+    description: "Bem vindo!",
+    scheme: "light", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  link: "https://blog-j.vercel.app",
+  since: 2024, // If leave this empty, current year will be used.
+  lang: "pt-BR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
@@ -69,7 +71,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 21600 * 7, // revalidate time for [slug], index
+  revalidateTime: 60*2, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }
