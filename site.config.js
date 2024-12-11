@@ -8,7 +8,7 @@ const CONFIG = {
     email: "e913522p@educacao.sp.gov.br",
     linkedin: "escolajaimedeoliveira",
     github: "escolajaimedeoliveira",
-    instagram: "*",
+    instagram: "escolajaimedeoliveira",
     facebook: "escolajaime",
     phone: "1535546001"
   },
