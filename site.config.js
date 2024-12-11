@@ -5,10 +5,10 @@ const CONFIG = {
     image: "/escolajaimedeoliveira.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "📍 Ponte Alta, Barra do Chapéu - SP",
     bio: "📍 Ponte Alta, Barra do Chapéu - SP",
-    email: "escolajaime@gmail.com",
-    linkedin: "eduardoslompo",
-    github: "eduardoslompo",
-    instagram: "eduslompo",
+    email: "e913522p@educacao.sp.gov.br",
+    linkedin: "escolajaimedeoliveira",
+    github: "escolajaimedeoliveira",
+    instagram: "*",
     facebook: "escolajaime",
     phone: "1535546001"
   },
@@ -71,7 +71,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 60*2, // revalidate time for [slug], index
+  revalidateTime: 2, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }
